@@ -1,0 +1,15 @@
+actionid: py37
+msg: installpkg
+cmdargs: '/home/rwutscher/test/ShopingList/server/.tox/py37/bin/python -m pip install --no-deps -U /home/rwutscher/test/ShopingList/server/.tox/.tmp/package/1/UNKNOWN-0.0.0.zip'
+
+Processing ./.tox/.tmp/package/1/UNKNOWN-0.0.0.zip
+Building wheels for collected packages: UNKNOWN
+  Building wheel for UNKNOWN (setup.py): started
+  Building wheel for UNKNOWN (setup.py): finished with status 'done'
+  Stored in directory: /home/rwutscher/.cache/pip/wheels/38/e3/e6/315c1469115d7491d910b1135a9707e861a222511757ddeb57
+Successfully built UNKNOWN
+Installing collected packages: UNKNOWN
+  Found existing installation: UNKNOWN 0.0.0
+    Not uninstalling unknown at /home/rwutscher/test/ShopingList/server, outside environment /home/rwutscher/test/ShopingList/server/.tox/py37
+    Can't uninstall 'UNKNOWN'. No files were found to uninstall.
+Successfully installed UNKNOWN-0.0.0

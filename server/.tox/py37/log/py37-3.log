@@ -1,0 +1,15 @@
+actionid: py37
+msg: envreport
+cmdargs: '/home/rwutscher/test/ShopingList/server/.tox/py37/bin/python -m pip freeze'
+
+aniso8601==6.0.0
+Click==7.0
+Flask==1.0.2
+Flask-RESTful==0.3.7
+itsdangerous==1.1.0
+Jinja2==2.10
+MarkupSafe==1.1.1
+pytz==2018.9
+six==1.12.0
+UNKNOWN==0.0.0
+Werkzeug==0.15.1

@@ -1,8 +1,8 @@
 # Shopinglist TODO
 
-* [ ] Flask Server CRUD
+* [x] Flask Server CRUD
 * [ ] Vue Client Liste
-* [ ] pytest, tox
+* [x] pytest, tox
 * [ ] cypress
 * [ ] HTTP Basic Auth
 * [ ] Local Deployment

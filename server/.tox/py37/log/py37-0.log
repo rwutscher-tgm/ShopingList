@@ -1,0 +1,9 @@
+actionid: py37
+msg: getenv
+cmdargs: '/home/rwutscher/test/ShopingList/server/venv/bin/python -m virtualenv --python /home/rwutscher/test/ShopingList/server/venv/bin/python py37'
+
+Already using interpreter /home/rwutscher/test/ShopingList/server/venv/bin/python
+Using real prefix '/usr'
+New python executable in /home/rwutscher/test/ShopingList/server/.tox/py37/bin/python
+Installing setuptools, pip, wheel...
+done.

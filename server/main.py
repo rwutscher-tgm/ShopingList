@@ -1,7 +1,9 @@
 from flask import Flask
 from flask_restful import reqparse, abort, Api, Resource
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 api = Api(app)
 
 SHOPPINGLIST = {
@@ -34,7 +36,7 @@ class Todo(Resource):
     def put(self, todo_id):
         args = parser.parse_args()
         task = {'task': args['task']}
-        TODOS[todo_id] = task
+        SHOPPINGLIST[todo_id] = task
         return task, 201
 
 
